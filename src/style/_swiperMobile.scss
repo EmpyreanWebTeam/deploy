@@ -1,4 +1,4 @@
-@media screen and (max-width: 855px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
   .slider {
     top: 18px;
@@ -147,21 +147,21 @@
         font-size: 1rem;
         letter-spacing: 0.0ch;
         left: 0vw;
-        bottom: 86vw;
-        width: 49%;
+        bottom: 93vw;
+        width: 100%;
       }
 
       .addAmount {
-        left: 47vw;
-        bottom: 117vw;
-        width: 49%;
+        left: 0vw;
+        bottom: 92vw;
+        width: 100%;
         font-size: 1rem;
       }
 
       .slideIframe {
         background: transparent;
         width: 116%;
-        height: 448px;
+        height: 112%;
         left: 0px;
         bottom: 12vw;
         position: absolute;
@@ -173,16 +173,16 @@
         z-index: 1;
         display: inline-block;
         width: 116%;
-        height: 403px;
+        height: 73%;
         overflow: hidden;
-        top: -3vw;
+        top: 4%;
         left: -11vw;
     }
 
       .slideIframe2 {
         background-color: transparent;
         width: 100%;
-        bottom: 339px;
+        bottom: 38%;
         opacity: 0.8;
         height: 23%;
         padding: 6px;
@@ -205,10 +205,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 61%;
-        text-align: left;
-        top: 59px;
-        left: 3%;
+        width: 100%;
+        text-align: center;
+        top: 8%;
+        left: 0%;
       }
 
       .slideBack {
@@ -231,7 +231,7 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 0em;
+        bottom: -4%;
         left: 0%;
       }
 

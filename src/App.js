@@ -59,7 +59,7 @@ const App = () => {
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
         </div>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/deploy">
     <Links />
       <Route
         render={({ location }) => {

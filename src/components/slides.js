@@ -110,7 +110,6 @@ function Slide({ slide, offset }) {
 
                               {/* SLIDER CARD 0 */}
                                 <h2 className="slideWelcome">{slide.welcome}</h2>
-                                <h2 className="slideBack">{slide.back}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
                                 <div className="iframeWrapper">
                                   {/* <div className="hideLogo"></div> */}
@@ -186,12 +185,6 @@ function Slide({ slide, offset }) {
                                 <p className="slideNumber">{slide.four}</p>
                               {/* SLIDER CARD 5 */}
                                 <p className="slideNumber">{slide.five}</p>
-                              {/* SLIDER CARD 6 */}
-                                <p className="slideNumber">{slide.six}</p>
-                              {/* SLIDER CARD 7 */}
-                                <p className="slideNumber">{slide.seven}</p>
-                              {/* SLIDER CARD 8 */}
-                                <p className="slideNumber">{slide.eight}</p>
                       </div>
                   </div>
               </div>
