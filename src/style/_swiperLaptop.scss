@@ -91,41 +91,40 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 356px;
+        bottom: 66%;
       }
 
       .fundingSource {
-        bottom: 383px;
-        width: 24vw;
+        bottom: 70%;
+        width: 100%;
       }
 
       .slideIconFlex {
         right: 0vw;
         display: flex;
-        bottom: 8vw;
-        width: 50%;
-        top: 0vw
+        width: 100%;
       }
 
       .slideIcon {
         height: 4em;
         width: 5em;
         flex: auto;
-        bottom: 205px;
-        right: 9px;
+        bottom: 25vw;
+        right: 0px;
       }
 
       .slideCard, .slideCardOnFile {
         right: 0vw;
         width: 50%;
-        bottom: 29vw;
+        bottom: 73%;
       }
 
       .slideLastWin,
       .slideMostWins,
       .slideMostGames {
-        bottom: 35vw;
+        bottom: 89%;
         width: 100%;
+        line-height: 1.4;
       }
 
       .slideNumber {
@@ -140,22 +139,22 @@
       .fundsAmount {
         margin: 0;
         font-size: 1rem;
-        letter-spacing: 0.0ch;
-        left: 25vw;
-        bottom: 54vw;
+        letter-spacing: 0ch;
+        left: 44%;
+        bottom: 100%;
         width: 50%;
       }
 
       .addAmount {
-        left: 27vw;
-        bottom: 52vw;
-        width: 22vw;
+        left: 44%;
+        bottom: 100%;
+        width: 50%;
       }
 
       .slideIframe {
         background: transparent;
         width: 116%;
-        height: 448px;
+        height: 112%;
         left: 0px;
         bottom: 12vw;
         position: absolute;
@@ -167,18 +166,18 @@
         z-index: 1;
         display: inline-block;
         width: 50%;
-        height: 403px;
+        height: 71%;
         overflow: hidden;
-        bottom: 10vw;
-        left: 14vw;
+        bottom: 0%;
+        left: 0%;
     }
 
       .slideIframe2 {
         background-color: transparent;
-        width: 60%;
-        bottom: 524px;
+        width: 67%;
+        bottom: 91%;
         opacity: 0.8;
-        height: 28%;
+        height: 54%;
       }
       
       .slideTitle {
@@ -189,7 +188,7 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 32vw;
+        bottom: 82%;
       }
   
       .slideWelcome {
@@ -198,10 +197,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 61%;
-        text-align: left;
-        top: 59px;
-        left: 3%;
+        width: 100%;
+        text-align: center;
+        top: 7%;
+        left: 0%;
       }
 
       .slideBack {
@@ -222,10 +221,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 64%;
+        width: 100%;
         text-align: center;
-        bottom: 1em;
-        left: 5%;
+        top: 3%;
+        left: 0%;
       }
 
       .slideNewCard {

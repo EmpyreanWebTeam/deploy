@@ -15,7 +15,7 @@ import "../../style/base.css";
 function Laptop() {
   // const [show] = useState(false);
     const Laptop = ({ children }) => {
-        const isLaptop = useMediaQuery({ minWidth: 1024, maxWidth: 1549, minHeight: 687 })
+        const isLaptop = useMediaQuery({ minWidth: 1024, maxWidth: 1440 })
         return isLaptop ? children : null
       }
         return (

@@ -78,10 +78,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 44%;
+        width: 100%;
         text-align: center;
-        bottom: 3em;
-        left: 9%;
+        bottom: 4%;
+        left: 0%;
       }
 
       .slideIframe {
@@ -101,8 +101,8 @@
         width: 50%;
         height: 403px;
         overflow: hidden;
-        bottom: 10vw;
-        left: 14vw;
+        bottom: 5%;
+        left: 0vw;
       }
   
       .slideWelcome {
@@ -111,10 +111,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 61%;
-        text-align: left;
+        width: 100%;
+        text-align: center;
         top: 0px;
-        left: 3%;
+        left: 0%;
       }
 
       .slideBack {
@@ -255,6 +255,8 @@
       height: auto;
       background: transparent;
       display:inline-block;
+      top: 60%;
+      right: 37%;
     }
 
     .EEhamburger, img {
