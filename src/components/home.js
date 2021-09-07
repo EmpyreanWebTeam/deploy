@@ -22,7 +22,7 @@ const Home = () => {
         return isTablet ? children : null
       }
       const MobileResponsive = ({ children }) => {
-        const isMobile = useMediaQuery({ minWidth: 376, maxWidth: 767 })
+        const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 767 })
         return isMobile ? children : null
       }
 

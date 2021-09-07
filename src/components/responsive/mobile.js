@@ -9,7 +9,7 @@ import "../../style/base.css";
 
 function Mobile() {
     const Mobile = ({ children }) => {
-        const isMobile = useMediaQuery({ minWidth: 376, maxWidth: 767 })
+        const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 767 })
         return isMobile ? children : null
       }
         return (
