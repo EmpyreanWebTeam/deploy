@@ -3,7 +3,6 @@ import Laptop from "../components/responsive/laptop";
 import Desktop from "../components/responsive/desktop";
 import Tablet from "../components/responsive/tablet";
 import Mobile from "../components/responsive/mobile";
-// import Doors from "../components/responsive/doors";
 import { useMediaQuery } from 'react-responsive';
 
  
@@ -11,11 +10,11 @@ import { useMediaQuery } from 'react-responsive';
 const Home = () => {
   
     const DesktopResponsive = ({ children }) => {
-        const isDesktop = useMediaQuery({ minWidth: 1550 })
+        const isDesktop = useMediaQuery({ minWidth: 1441, maxWidth: 9999 })
         return isDesktop ? children : null
       }
     const LaptopResponsive = ({ children }) => {
-        const isLaptop = useMediaQuery({ minWidth: 856, maxWidth: 1549 })
+        const isLaptop = useMediaQuery({ minWidth: 1024, maxWidth: 1440 })
         return isLaptop ? children : null
     }
     const TabletResponsive = ({ children }) => {
@@ -23,7 +22,7 @@ const Home = () => {
         return isTablet ? children : null
       }
       const MobileResponsive = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 855 })
+        const isMobile = useMediaQuery({ minWidth: 376, maxWidth: 767 })
         return isMobile ? children : null
       }
 

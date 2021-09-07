@@ -2,8 +2,7 @@
   {
     "sliderCard": 0,
     "title": "",
-    "welcome": "Welcome",
-    "back": "Back",
+    "welcome": "Welcome Back",
     "name": "Greg",
     "iframe": "https://clara.io/player/v2/52bbdf88-9908-40a6-bf83-538db4c501af?wait=false&allowTransparency=true&renderer=webgl&timeline=true&bgColor=0xffffff&tools=hide&configurator.show=true"
   },
@@ -13,7 +12,7 @@
       "lastLogin": "Last Login: 4-21-2021",
       "winnings": "Earnings: $2,550",
       "lastDeposit": "Last Deposit: $300",
-      "tips": "Don't eat the yellow snow.",
+      "tips": "Tips:  Only gamble with money you can afford to lose.",
       "iframe": ""
     },
     {

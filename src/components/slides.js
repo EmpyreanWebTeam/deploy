@@ -110,7 +110,6 @@ function Slide({ slide, offset }) {
 
                               {/* SLIDER CARD 0 */}
                                 <h2 className="slideWelcome">{slide.welcome}</h2>
-                                <h2 className="slideBack">{slide.back}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
                                 <div className="iframeWrapper">
                                   {/* <div className="hideLogo"></div> */}
