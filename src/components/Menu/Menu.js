@@ -11,23 +11,21 @@ const Menu = ({ open, ...props }) => {
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <a href="/" tabIndex={tabIndex}>
+      <a href="/deploy" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
         Games
       </a>
-      <a href="/" tabIndex={tabIndex}>
+      <a href="/deploy" tabIndex={tabIndex}>
         <span aria-hidden="true">💸</span>
         Add Funds
         </a>
-      <a href="/" tabIndex={tabIndex}>
+      <a href="/deploy" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
         Profile
         </a>
       <a href="https://www.latlmes.com/tech/rick-roll-1" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-        Here's a
-        <br></br>
-        Rick Roll link
+        Rick Roll
         </a>
       <a href="/" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>

@@ -165,11 +165,13 @@ function Slide({ slide, offset }) {
                                 <h2 className="addAmount">{slide.addAmount}</h2>
 
                                 {/* SLIDER CARD 3 */}
-                                <h2 className="slideTitle">{slide.title}</h2>
+                                <h2 className="gamesTitle">{slide.gamesTitle}</h2>
                                 <p className="slideMostGames">{slide.mostGames}</p>
                                 <p className="slideMostWins">{slide.mostWins}</p>
                                 <p className="slideLastWin">{slide.lastWin}</p>
                                 
+                                {/* SLIDER CARD 4 */}
+                                <h2 className="blackjackTitle">{slide.blackjackTitle}</h2>
                                   <iframe
                                     className="slideIframe2"
                                     src={slide.iframe2}
@@ -181,10 +183,18 @@ function Slide({ slide, offset }) {
                                     allowtransparency="true">
                                   </iframe>
                                 
-                              {/* SLIDER CARD 4 */}
-                                <p className="slideNumber">{slide.four}</p>
-                              {/* SLIDER CARD 5 */}
-                                <p className="slideNumber">{slide.five}</p>
+                                {/* SLIDER CARD 5 */}
+                                <h2 className="pokerTitle">{slide.pokerTitle}</h2>
+                                  <iframe
+                                    className="slideIframe3"
+                                    src={slide.iframe3}
+                                    backgroundColor="red"
+                                    title="My Avitar"
+                                    frameBorder="0" 
+                                    scrolling="no" 
+                                    allowFullScreen="false"
+                                    allowtransparency="true">
+                                  </iframe>
                       </div>
                   </div>
               </div>

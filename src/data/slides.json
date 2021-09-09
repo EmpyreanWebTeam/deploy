@@ -33,19 +33,19 @@
     },
     {
       "sliderCard": 3,
-      "title": "Games",
+      "gamesTitle": "Games",
       "mostGames": "Most games played: 5 card stud",
       "mostWins": "Most wins: Craps",
-      "lastWin": "Last Win: 4-21-2021",
-      "iframe": "",
-      "iframe2": "https://cdn.htmlgames.com/CasinoBlackjack/"
+      "lastWin": "Last Win: 4-21-2021"
     },
     {
       "sliderCard": 4,
-      "four": "4"
+      "blackjackTitle": "Blackjack",
+      "iframe2": "https://cdn.htmlgames.com/CasinoBlackjack/"
     },
     {
       "sliderCard": 5,
-      "five": "5"
+      "pokerTitle": "Poker",
+      "iframe3": "https://cdn.htmlgames.com/VegasPoker/"
     }
   ]

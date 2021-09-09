@@ -277,10 +277,21 @@ div.shadow.slideIframe2 {
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-button {
-  position: absolute;
+h2, .slideWelcome {
+  display: inline-block;
+  transform: scale(1, 2);
 }
 
-.iframeSrc {
-  bottom: 8vw;
-}
+  h3,
+  .slideName,
+  .slideUserName,
+  .slideLastLogin,  
+  .slideLastDeposit, 
+  .slideWinnings,
+  .slideEarnings, 
+  .slideTips,
+  .slideDescription,
+  .fundingSource {
+    display: inline-block;
+    transform: scale(1, 2);
+  }
