@@ -109,10 +109,11 @@ function Slide({ slide, offset }) {
                           <div className="slideContentInner">
 
                               {/* SLIDER CARD 0 */}
+                              <div className="card0">
                                 <h2 className="slideWelcome">{slide.welcome}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
+                              </div>
                                 <div className="iframeWrapper">
-                                  {/* <div className="hideLogo"></div> */}
                                   <iframe
                                     className="slideIframe"
                                     src={slide.iframe}
@@ -124,31 +125,38 @@ function Slide({ slide, offset }) {
                                     allowtransparency="true">
                                   </iframe>
                                 </div>
+                             
                             
                                 {/* SLIDER CARD 1 */}
-                              
+                              <div className="card1">
                                 <h3 className="slideUserName">{slide.userName}</h3>
                                   <p className="slideLastLogin">{slide.lastLogin}</p>
                                   <p className="slideWinnings">{slide.winnings}</p>
                                   <p className="slideLastDeposit">{slide.lastDeposit}</p>
                                   <p className="slideTips">{slide.tips}</p>
+                              </div>
 
                                 {/* SLIDER CARD 2 */}
+                              <div className="card2">
                                 <h2 className="fundsTitle">{slide.fundsTitle}</h2>
                                 <p className="fundingSource">{slide.fundingSource}</p>
-                                <div className="slideIconFlex">
-                                  <div className="slideIcon">
+                                <div className="slideIcon">
+                                  <div className="bitCoin">
                                     <FontAwesomeIcon
-                                      className="slideIcon"
-                                      icon={require("@fortawesome/free-brands-svg-icons")[slide.icon0]}
+                                    className="slideIcon"
+                                    icon={require("@fortawesome/free-brands-svg-icons")[slide.icon0]}
                                     />
+                                  </div>
+                                  <div className="payPal">
                                     <FontAwesomeIcon
-                                      className="slideIcon"
-                                      icon={require("@fortawesome/free-brands-svg-icons")[slide.icon1]}
+                                    className="slideIcon"
+                                    icon={require("@fortawesome/free-brands-svg-icons")[slide.icon1]}
                                     />
+                                  </div>
+                                  <div className="visa">
                                     <FontAwesomeIcon
-                                      className="slideIcon"
-                                      icon={require("@fortawesome/free-brands-svg-icons")[slide.icon2]}
+                                    className="slideIcon"
+                                    icon={require("@fortawesome/free-brands-svg-icons")[slide.icon2]}
                                     />
                                   </div>
                                 </div>
@@ -163,15 +171,20 @@ function Slide({ slide, offset }) {
                                 <p className="slideFunds">{slide.funds}</p>
                                 <p className="fundsAmount">{slide.fundsAmount}</p>
                                 <h2 className="addAmount">{slide.addAmount}</h2>
+                              </div>
 
                                 {/* SLIDER CARD 3 */}
+                              <div className="card3">
                                 <h2 className="gamesTitle">{slide.gamesTitle}</h2>
                                 <p className="slideMostGames">{slide.mostGames}</p>
                                 <p className="slideMostWins">{slide.mostWins}</p>
                                 <p className="slideLastWin">{slide.lastWin}</p>
+                              </div>
                                 
                                 {/* SLIDER CARD 4 */}
+                              <div className="card4">
                                 <h2 className="blackjackTitle">{slide.blackjackTitle}</h2>
+                              </div>
                                   <iframe
                                     className="slideIframe2"
                                     src={slide.iframe2}
@@ -184,7 +197,9 @@ function Slide({ slide, offset }) {
                                   </iframe>
                                 
                                 {/* SLIDER CARD 5 */}
+                              <div className="card5">
                                 <h2 className="pokerTitle">{slide.pokerTitle}</h2>
+                              </div>
                                   <iframe
                                     className="slideIframe3"
                                     src={slide.iframe3}

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+// @media screen and (min-width: 1024px) and (max-width: 1440px) {
 
   .slider {
     top: 18px;
@@ -62,8 +62,30 @@
       transform-style: preserve-3d;
       transition: opacity 0.3s linear;
       text-shadow: -10px 10px 9px black;
-      bottom: 14vw;
       width: 100%;
+      bottom: 18%;
+      .card0 {
+        top: 6%;
+      }
+
+      .card1 {
+        bottom: 34%;
+      }
+
+      .card2 {
+        bottom: 47%;
+      }
+
+      .card3 {
+        bottom: 75%;
+      }
+      .card4 {
+        top: 6%;
+      }
+
+      .card5 {
+        top: 6%;
+      }
   
       .slideName,
       .slideUserName,
@@ -100,12 +122,6 @@
         line-height: 2;
       }
 
-      .slideFunds, 
-      .fundsAmount {
-        bottom: 77%;
-        line-height: 2;
-      }
-
       .fundingSource {
         width: 50%;
         right: 25%;
@@ -119,8 +135,23 @@
         height: 4em;
         width: 5em;
         flex: auto;
-        bottom: 387px;
-        right: 13%;
+        top: 0px;
+        left: 8%;
+      }
+
+      .bitCoin {
+        top: 3px;
+        left: 9%;
+      }
+
+      .payPal {
+        bottom: 74px;
+        left: 92%;
+      }
+
+      .visa {
+        bottom: 150px;
+        left: 184%;
       }
 
       .slideCard {
@@ -166,11 +197,13 @@
         letter-spacing: 0ch;
         left: 50%;
         width: 50%;
+        bottom: 28vw;
+        line-height: 2;
       }
 
       .addAmount {
         left: 25%;
-        bottom: 74%;
+        bottom: 26vw;
         width: 50%;
       }
 
@@ -189,7 +222,7 @@
         z-index: 1;
         display: inline-block;
         width: 50%;
-        height: 36%;
+        height: 37%;
         overflow: hidden;
         bottom: 8%;
         left: 0%;
@@ -203,19 +236,21 @@
         margin: 0;
         width: 100%;
         text-align: center;
+        bottom: 72vw;
       }
 
       .slideIframe2 {
         background-color: transparent;
         width: 87%;
         opacity: 0.8;
-        height: 36%;
+        height: 33%;
+        bottom: 67vw;
       }
 
-      .blackjackTitle, 
-      .slideIframe2 {
-        bottom: 87%;
-      }
+      // .blackjackTitle, 
+      // .slideIframe2 {
+      //   bottom: 87%;
+      // }
 
       .pokerTitle {
         font-size: 2.5rem;
@@ -225,18 +260,15 @@
         margin: 0;
         width: 100%;
         text-align: center;
+        bottom: 101vw;
       }
 
       .slideIframe3 {
         background-color: transparent;
         width: 87%;
         opacity: 0.8;
-        height: 36%;
-      }
-
-      .pokerTitle, 
-      .slideIframe3 {
-        bottom: 128%;
+        height: 31%;
+        bottom: 123%;
       }
       
       .slideTitle {
@@ -333,7 +365,7 @@
     }.shadowfilter:hover {
       -webkit-filter: drop-shadow(0px 0px 8px #919149); 
     }
-  }
+  
 
   .slideContent {
     position: absolute;
@@ -374,6 +406,70 @@
   
     .slideContentInner {
       opacity: 0.85;
+      height: 42%;
+      bottom: 12%;
+
+      .card0 {
+        top: 6%;
+      }
+
+      .card1 {
+        bottom: 67%;
+      }
+
+      .card2 {
+        bottom: 113%;
+      }
+
+      .card3 {
+        bottom: 180%;
+      }
+      .card4 {
+        top: 6%;
+      }
+
+      .card5 {
+        top: 6%;
+      }
+
+      .blackjackTitle {
+        bottom: 68vw;
+      }
+
+      .slideIframe2 {
+        bottom: 201%;
+        height: 74%;
+      }
+
+      .slideIframe3 {
+        bottom: 290%;
+        height: 74%;
+      }
+
+      .pokerTitle {
+        bottom: 97vw;
+      }
+
+      .iframeWrapper {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        width: 50%;
+        height: 73%;
+        overflow: hidden;
+        bottom: 20%;
+        left: 0%;
+      }
+
+      .slideIframe {
+        background: transparent;
+        width: 116%;
+        height: 112%;
+        left: -25px;
+        bottom: 12vw;
+        position: absolute;
+        top: 0px;
+      }
     }
   
     .slideContent {
