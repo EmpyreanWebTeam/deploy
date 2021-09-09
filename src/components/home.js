@@ -1,49 +1,52 @@
 import React from "react";
-import Laptop from "../components/responsive/laptop";
-import Desktop from "../components/responsive/desktop";
-import Tablet from "../components/responsive/tablet";
-import Mobile from "../components/responsive/mobile";
-import { useMediaQuery } from 'react-responsive';
+import ReactDOM from "react-dom";
+import { Responsive } from "./react-responsive/Responsive";
 
- 
+// Components
+import Slides from './slides'
 
-const Home = () => {
-  
-    const DesktopResponsive = ({ children }) => {
-        const isDesktop = useMediaQuery({ minWidth: 1441, maxWidth: 9999 })
-        return isDesktop ? children : null
-      }
-    const LaptopResponsive = ({ children }) => {
-        const isLaptop = useMediaQuery({ minWidth: 1024, maxWidth: 1440 })
-        return isLaptop ? children : null
-    }
-    const TabletResponsive = ({ children }) => {
-        const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
-        return isTablet ? children : null
-      }
-      const MobileResponsive = ({ children }) => {
-        const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 767 })
-        return isMobile ? children : null
-      }
+// Style
+import "../App.css";
+import "../style/_swiper.scss";
+import "../style/_swiperLaptop.scss";
+import "../style/_swiperTablet.scss";
+import "../style/_swiperMobile.scss";
+import "../style/_swiperDesktop.scss";
 
 
-    return (
-        <div className="container">
-          <DesktopResponsive>
-            <Desktop />
-          </DesktopResponsive>
-          <LaptopResponsive>
-            <Laptop />
-          </LaptopResponsive>
-          <TabletResponsive>
-            <Tablet />
-          </TabletResponsive>
-          <MobileResponsive>
-            <Mobile />
-          </MobileResponsive>
-        </div>
-    );
-  }
-
+function Home() {
+  return (
+    <div className="App">
+      <Responsive displayIn={["Laptop"]}>
+        <>
+          <div className="background">
+              <Slides />
+          </div>
+        </>
+      </Responsive>
+      <Responsive displayIn={["Mobile"]}>
+        <>
+          <div className="background">
+              <Slides />
+          </div>
+        </>
+      </Responsive>
+      <Responsive displayIn={["Tablet"]}>
+        <>
+          <div className="background">
+              <Slides />
+          </div>
+        </>
+      </Responsive>
+      <Responsive displayIn={["LargerThanLaptop"]}>
+        <>
+          <div className="background">
+              <Slides />
+          </div>
+        </>
+      </Responsive>
+    </div>
+  );
+}
 
 export default Home;
