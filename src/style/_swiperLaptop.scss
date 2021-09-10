@@ -17,7 +17,7 @@
       grid-area: -1 / 1;
     }
 
-    > button {
+    button {
       appearance: none;
       background: transparent;
       border: none;
@@ -40,12 +40,14 @@
       }
 
       &:first-child {
-        left: 97%;
+        left: 84%;
         top: 20vw;
+        transform: rotate(90deg);
       }
       &:last-child {
-        right: 97%;
+        right: 84%;
         top: 20vw;
+        transform: rotate(270deg);
       }
     }
   }
@@ -56,6 +58,11 @@
       width: 4rem;
       left: 5px;
       top: 35px;
+    }
+
+    .chevronleft {
+      color: #f5e7c9;
+      transform: rotate(180deg);
     }
 
     .slideContentInner {

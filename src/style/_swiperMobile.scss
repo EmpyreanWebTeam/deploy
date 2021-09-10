@@ -32,7 +32,7 @@
       color: white;
       position: absolute;
       font-size: 10rem;
-      width: 5rem;
+      // width: 5rem;
       height: 5rem;
       top: 30%;
       transition: opacity 0.3s;
@@ -48,12 +48,14 @@
       }
 
       &:first-child {
-        left: 97%;
-        top: 146vw;
+        left: 134%;
+        top: 135vw;
+        transform: rotate(90deg);
       }
       &:last-child {
-        right: 97%;
-        top: 146vw;
+        right: 134%;
+        top: 135vw;
+        transform: rotate(270deg);
       }
     }
   }

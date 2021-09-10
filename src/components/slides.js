@@ -11,6 +11,7 @@ import "../style/_swiper.scss";
 // import "../../style/glitch.scss";
 
 //Images
+import Chevron from "../images/chevron.png";
 
 // Data
 import slides from "../data/slides.json";
@@ -228,13 +229,17 @@ function Slide({ slide, offset }) {
     return (
         
           <div className="slides">
-            <button className="shadowfilter" onClick={() => dispatch({ type: "PREV" })}>›</button>
+            <button className="shadowfilter" onClick={() => dispatch({ type: "PREV" })}>
+              <img src={Chevron} className="chevronRight" alt="chevron"></img>
+            </button>
   
               {[...slides, ...slides, ...slides].map((slide, i) => {
                 let offset = slides.length + (state.slideIndex - i);
                 return <Slide slide={slide} offset={offset} key={slide.id} />;
               })}
-            <button className="shadowfilter" onClick={() => dispatch({ type: "NEXT" })}>‹</button>
+            <button className="shadowfilter" onClick={() => dispatch({ type: "NEXT" })}>
+              <img src={Chevron} className="chevronLeft" alt="chevron"></img>
+            </button>
           </div>
     )
   }

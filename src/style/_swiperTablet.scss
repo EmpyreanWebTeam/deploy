@@ -42,10 +42,12 @@
         &:first-child {
           left: 104%;
           top: 51vw;
+          transform: rotate(90deg);
         }
         &:last-child {
           right: 104%;
           top: 51vw;
+          transform: rotate(270deg);
         }
       }
     }
